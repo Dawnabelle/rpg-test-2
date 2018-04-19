@@ -22,17 +22,21 @@ describe('character', function(){
   it('should test if the character has a name', function(){
     expect(resusableCharacter.name).not.toEqual('');
   });
+
   it('should test for the character type', function(){
     expect(resusableCharacter.type).toEqual('mage');
     player.checkType();
     expect(resusableCharacter.int).toEqual(10);
   });
+
     it('should test character type and gift accordingly', function(){
       expect(wand.item).toEqual('wand');
   });
+
 
     it('should take points away from health per damage dealt', function() {
       resusableCharacter.health -= baddie.damage;
       expect(baddie.damage).toEqual(5);
   });
+  
 });
