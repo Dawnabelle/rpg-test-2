@@ -1,4 +1,4 @@
-export class Character {
+class Character {
   constructor (name, type){
     this.name = name;
     this.type = type;
@@ -24,35 +24,6 @@ export class Character {
       this.health -=3;
     }
   }
-
-
-
 }
 
-export class Gift {
-  constructor (item){
-    this.item = item;
-  // }
-  // if (player.type === mage){
-  //   let gift = wand;
-  // } else if {
-  //   (player.type === warrior) {
-  //     let gift = sword;
-  //   }
-  //   else if {
-  //     (player.type === bard) {
-  //       let gift = lute;
-  //     }
-  //   }
-  }
-}
-export function enemy(name) {
-  this.name = name;
-  this.health = 20;
-  this.damage = 5;
-}
-
-enemy.prototype.enemyAttack = function(){
-  let damage = 5;
-  return damage;
-};
+export {Character}

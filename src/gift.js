@@ -1,4 +1,4 @@
-export class Gift {
+class Gift {
   constructor (item){
     this.item = item;
   // }
@@ -15,3 +15,5 @@ export class Gift {
   //   }
   }
 }
+
+export {Gift}

@@ -10,14 +10,13 @@ let sword = new Gift('sword');
 let lute = new Gift('lute');
 
 describe('character', function(){
-  var resusableCharacter;
+  let resusableCharacter;
 
   beforeEach(function(){
     resusableCharacter = new Character('Dawn', 'mage')
   });
 
   it('should reset character to beforeEach', function(){
-    console.log(resusableCharacter);
   });
 
   it('should test if the character has a name', function(){

@@ -1,4 +1,4 @@
-export class Enemy {
+class Enemy {
   constructor (name, type){
     this.name = name;
     this.type = type;
@@ -6,3 +6,5 @@ export class Enemy {
     this.damage = 5;
   }
 }
+
+export {Enemy}
